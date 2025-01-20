@@ -1,50 +1,18 @@
-import "bulma/css/bulma.css";
-import ProfileCard from "./ProfileCard";
-import AlexaImage from "./images/alexa.png";
-import CortanaImage from "./images/cortana.png";
-import SiriImage from "./images/siri.png";
+import React from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services";
 
-function App() {
+const App = () => {
   return (
-    <div >
-      <section className="hero is-primary">
-        <div className="hero-body">
-          <p className="title">Personal Digital Assistants</p>
-        </div>
-      </section>
-      <div className="container">
-        <section className="section">
-          <div className="columns is-desktop">
-            <div className="column is-4 animate_bounce">
-              <ProfileCard
-                title="Alexa"
-                handle="@alexa99"
-                image={AlexaImage}
-                description="Alexa was created by Amazone and helps you to buy things"
-              />
-            </div>
-            <div className="column is-4">
-              <ProfileCard
-                title="Cortana"
-                handle="@cortana32"
-                image={CortanaImage}
-                description="Cortana was made by Microsoft"
-              />
-            </div>
-            <div className="column is-4">
-              <ProfileCard
-                title="Alexa"
-                handle="@siri01"
-                image={SiriImage}
-                description="Siri was made by Appel and is being phased out"
-              />
-            </div>
-            
-          </div>
-        </section>
-      </div>
+    <div>
+      <Header />
+      <Hero />
+      <About />
+      <Services/>
     </div>
   );
-}
+};
 
 export default App;
