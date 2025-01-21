@@ -8,10 +8,10 @@ const Hero = () => (
     className="bg-cover bg-center h-screen flex items-center justify-center text-center"
     style={{ backgroundImage: "url('https://www.industrias-maxi.es/imagenes/fachadamaxi.jpg')" }}
   >
-    <div className="text-white px-4">
-      <h1 className="text-4xl md:text-6xl font-bold mb-4">Building Your Future</h1>
-      <p className="text-lg md:text-2xl mb-6">
-        We design and construct spaces that inspire and endure.
+    <div className="px-10">
+      <h1 className=" text-maxiColor text-5xl md:text-6xl font-bold mb-4">Your Trusted Shield Against Pests</h1>
+      <p className="text-white text-lg md:text-2xl mb-6 font-bold">
+      We develop solutions that safeguard your environment and ensure a pest-free future.
       </p>
       <a
         href="#services"

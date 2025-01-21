@@ -16,16 +16,15 @@ const About = () => (
         </div>
         <div className="md:w-1/2 md:pl-8">
           <p className="text-lg text-gray-700 mb-6">
-          Maxi Industries is a leading company specializing in the production of all types of insecticides. 
-          The company's products are distinguished by their high quality and effectiveness, 
-          manufactured using the latest technologies and global standards to ensure safe and sustainable pest control. 
-          Maxi Industries is dedicated to meeting the needs of its customers, whether individuals or businesses,
-           while committing to environmental preservation and providing 
-          innovative solutions that protect public health and ensure user comfort
-          </p>
-          <p className="text-lg text-gray-700">
-            From residential projects to large-scale commercial developments, we pride ourselves
-            on our ability to exceed expectations and bring our clients' visions to life.
+          Maxi Industries is a professional manufacturer engaged in the research and development, 
+          production, sales, and service of insecticides, mosquito coils, fly coils, and electric mosquito coil liquids. 
+          We have over 10 years of experience in the production of daily chemical products. 
+          The company has advanced production equipment, professional operators, and a research and development team.
+          Our products sell well in multiple cities across the country.
+          Adhering to the principle of mutual benefit, 
+          we enjoy a good reputation among our customers with perfect service, high-quality products, 
+          and competitive prices. We sincerely welcome friends from all over the world to visit our company and cooperate with us. 
+          Looking forward to your consultation.
           </p>
         </div>
       </div>
