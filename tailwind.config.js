@@ -9,6 +9,14 @@ module.exports = {
         black:"#000000",
         maxiColor:"#007bff"
       },
+      fontFamily: {
+        helvetica: ['Helvetica Neue LT Pro', 'Helvetica', 'Arial', 'sans-serif'],
+        poppins: ["Poppins", "sans-serif"],
+      },
+      letterSpacing: {
+        extra: "0.2em",
+        superwide: "0.3em",
+      },
     },
   },
   plugins: [],

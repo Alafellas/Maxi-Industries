@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../index.css";
+import "./Footer.js";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,10 +10,17 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-900 text-white py-4">
+    <header className="fixed top-0 left-0 w-full bg-black bg-opacity-60 text-white py-4 z-50">
       <div className="container mx-auto flex justify-between items-center px-4">
         {/* Logo */}
-        <div className="text-2xl font-bold">MAXI Industries</div>
+        <ul>
+          <li>
+          <div className="text-4xl font-bold tracking-extra">MAXI</div>
+          </li>
+          <li>
+        <div className="text-2xl text-maxiColor font-helvetica">Industries</div>
+          </li>
+        </ul>
 
         {/* Hamburger Menu Icon */}
         <button
@@ -33,7 +41,7 @@ const Header = () => {
             <li className="py-4 md:py-0">
               <a
                 href="#home"
-                className="block text-white hover:text-yellow-500"
+                className="block text-white  font-bold hover:text-maxiColor"
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
                 Home
@@ -42,7 +50,7 @@ const Header = () => {
             <li className="py-4 md:py-0">
               <a
                 href="#about"
-                className="block text-white hover:text-yellow-500"
+                className="block text-white  font-bold hover:text-maxiColor"
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
                 About
@@ -51,7 +59,7 @@ const Header = () => {
             <li className="py-4 md:py-0">
               <a
                 href="#services"
-                className="block text-white hover:text-yellow-500"
+                className="block text-white  font-bold hover:text-maxiColor"
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
                 Services
@@ -59,8 +67,8 @@ const Header = () => {
             </li>
             <li className="py-4 md:py-0">
               <a
-                href="#contact"
-                className="block text-white hover:text-yellow-500"
+                href="#footer"
+                className="block text-white  font-bold hover:text-maxiColor"
                 onClick={() => setIsOpen(false)} // Close menu on link click
               >
                 Contact
